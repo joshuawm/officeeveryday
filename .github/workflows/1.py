@@ -15,6 +15,7 @@ secret=r'ZRh3US-C-qg2JI.C/651N_=aKhKYX=cm'
 
 path=sys.path[0]+r'/1.txt'
 num1 = 0
+time = 0
 
 def gettoken(refresh_token):
     headers={'Content-Type':'application/x-www-form-urlencoded'
@@ -76,3 +77,7 @@ def main():
     except:
         print("pass")
         pass
+
+while time < 1:
+    main()
+    time+=1
